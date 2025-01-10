@@ -5,7 +5,7 @@ import projects from "../data.json";
 
 function Projects() {
   return (
-    <div className="bg-baige h-full  ">
+    <div className="bg-baige h-full">
       <Nav />
       <div className="flex flex-col justify-center items-center p-5 gap-5 ">
         {projects.map((data) => (

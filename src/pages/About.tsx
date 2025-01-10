@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "../Nav";
-import image from "../images/stella.jpg";
 
 function About() {
   return (
@@ -10,7 +9,7 @@ function About() {
         <div className="grid grid-cols-1  md:grid-cols-2 place-content-stretch md:gap-10 h-fit py-20 md:w-3/4">
           <div className="justify-self-end">
             <img
-              src={image}
+              src="/assets/stella.jpg"
               alt="image1"
               className="hidden md:flex shrink-0 rounded-full h-60"
             />

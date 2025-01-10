@@ -2,7 +2,6 @@ import React from "react";
 import Nav from "../Nav";
 import { Typewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
-import icon from "../images/go.png";
 
 function Home() {
   return (
@@ -36,7 +35,7 @@ function Home() {
               <Link to="/projects" className="border-b border-darkGreen">
                 Go to Projects
               </Link>
-              <img src={icon} alt="" className="w-6 h-6 " />
+              <img src="/assets/go.png" alt="go-icon" className="w-6 h-6 " />
             </div>
           </div>
           <div className="flex flex-col gap-3 mt-40">

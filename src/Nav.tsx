@@ -1,12 +1,11 @@
 import React from "react";
-import logo from "./images/logo.png";
 
 function Nav() {
   return (
     <div className="flex px-20 py-5 bg-mint justify-around sm:justify-between ">
       <div className=" hidden  sm:flex">
         <div className="flex flex-wrap">
-          <img src={logo} alt="logo" className="w-6 h-6" />
+          <img src="/assets/logo.png" alt="logo" className="w-6 h-6" />
           <span className="text-md italic text-darkOrange hidden md:inline">
             YING Portfolio
           </span>
