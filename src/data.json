@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Cake Website",
+    "image": "https://images.unsplash.com/photo-1614850715649-1d0106293bd1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "link": "https://stella-jin-ys.github.io/react-cakeWebsite/",
+    "stacks": "React, Typescript,Tailwindcss "
+  },
+  {
+    "id": 2,
+    "name": "Package Tracking App",
+    "image": "https://images.unsplash.com/photo-1614852624356-ca225b786805?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "link": "https://stella-jin-ys.github.io/react-packageTracking/",
+    "stacks": "React, Typescript,Tailwindcss "
+  },
+  {
+    "id": 3,
+    "name": "3D Shop",
+    "image": "https://images.unsplash.com/photo-1614850716626-873413eb7c1b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "link": "https://stella-ai-3d-shop.netlify.app/",
+    "stacks": "React, Typescript,Tailwindcss "
+  },
+  {
+    "id": 4,
+    "name": "Portfolio 2024",
+    "image": "https://images.unsplash.com/photo-1614851099175-e5b30eb6f696?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "link": "https://stella-jin-portfolio.netlify.app/",
+    "stacks": ""
+  }
+]
