@@ -35,7 +35,11 @@ function Home() {
               <Link to="/projects" className="border-b border-darkGreen">
                 Go to Projects
               </Link>
-              <img src="/assets/go.png" alt="go-icon" className="w-6 h-6 " />
+              <img
+                src="/repository/assets/go.png"
+                alt="go-icon"
+                className="w-6 h-6 "
+              />
             </div>
           </div>
           <div className="flex flex-col gap-3 mt-40">
