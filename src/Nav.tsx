@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
@@ -18,36 +19,36 @@ function Nav() {
       <div className="flex flex-col sm:inline ">
         <ul className="flex space-x-10">
           <li>
-            <a
-              href="/"
+            <Link
+              to="/home"
               className="text-darkBlue hover:border-b border-darkBlue p-1"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/about"
+            <Link
+              to="/about"
               className="text-darkBlue hover:border-b border-darkBlue p-1"
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/projects"
+            <Link
+              to="/projects"
               className="text-darkBlue hover:border-b border-darkBlue p-1"
             >
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="text-darkBlue hover:border-b border-darkBlue p-1"
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
