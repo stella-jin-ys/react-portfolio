@@ -6,11 +6,7 @@ function Nav() {
     <div className="flex px-20 py-5 bg-mint justify-around sm:justify-between ">
       <div className=" hidden  sm:flex">
         <div className="flex flex-wrap">
-          <img
-            src="/repository/assets/logo.png"
-            alt="logo"
-            className="w-6 h-6"
-          />
+          <img src="/assets/logo.png" alt="logo" className="w-6 h-6" />
           <span className="text-md italic text-darkOrange hidden md:inline">
             Stella Portfolio
           </span>
@@ -20,7 +16,7 @@ function Nav() {
         <ul className="flex space-x-10">
           <li>
             <Link
-              to="/home"
+              to="/"
               className="text-darkBlue hover:border-b border-darkBlue p-1"
             >
               Home
