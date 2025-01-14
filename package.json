@@ -12,7 +12,7 @@
     "react-scripts": "^5.0.1",
     "react-simple-typewriter": "^5.0.1"
   },
-  "homepage": "https://stella-jin-ys.github.io/react-portfolio2025",
+  "homepage": "https://stella-jin-ys.github.io/react-portfolio",
   "scripts": {
     "start": "react-scripts start --openssl-legacy-provider",
     "build": "react-scripts build --openssl-legacy-provider",

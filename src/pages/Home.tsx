@@ -10,7 +10,7 @@ function Home() {
       <div className="h-screen flex gap-10 justify-evenly p-5">
         <div className="flex flex-col pt-40  ">
           <div className="mb-10">
-            <h1 className="text-5xl font-bold text-darkBlue">Yingshun Jin</h1>
+            <h1 className="text-5xl font-bold text-darkBlue">Stella Jin</h1>
           </div>
           <div>
             <p className="text-darkGreen text-4xl mt-2 ">DEVELOPER</p>

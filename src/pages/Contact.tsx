@@ -9,7 +9,7 @@ function Contact() {
         <div className="lg:w-1/2 lg:h-full">
           <img
             src="https://images.unsplash.com/photo-1577398628395-4ebd1f36731b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt=""
+            alt="contact image"
             className="h-full w-full object-cover border-r border-orange hidden lg:flex"
           />
         </div>

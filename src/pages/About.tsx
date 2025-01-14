@@ -17,7 +17,7 @@ function About() {
           <div className="w-full text-center p-10 md:w-2/5 md:p-0">
             <p>
               <span className="text-8xl text-orange">“</span>Hello. My name is
-              Yingshun Jin. I am a highly adaptable and disciplined professional
+              Stella Jin. I am a highly adaptable and disciplined professional
               with a strong drive for learning and achieving goals.
             </p>
             <span className="text-8xl float-right md:ml-40 text-orange">”</span>
@@ -80,7 +80,7 @@ function About() {
               CAREER SUMMARY
             </h1>
             <div className="mb-5 ">
-              2022-2023{" "}
+              2022-2023
               <span className="font-bold">Frontend developer consultant </span>
               @European Spallation Source
               <ul className="pl-5 list-disc">
@@ -107,8 +107,7 @@ function About() {
             <div className="mb-5">
               2021-2022
               <span className="font-bold">
-                {" "}
-                Global sales and marketing coordinator{" "}
+                Global sales and marketing coordinator
               </span>
               @PolyPeptide Group
               <ul className="pl-5 list-disc">

@@ -12,7 +12,7 @@ function Nav() {
             className="w-6 h-6"
           />
           <span className="text-md italic text-darkOrange hidden md:inline">
-            YING Portfolio
+            Stella Portfolio
           </span>
         </div>
       </div>
