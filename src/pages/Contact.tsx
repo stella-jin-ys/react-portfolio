@@ -13,30 +13,38 @@ function Contact() {
             className="h-full w-full object-cover border-r border-orange hidden lg:flex"
           />
         </div>
-        <div className="flex flex-col grow gap-10 justify-center items-center text-lg ">
-          <div className="w-2/3 flex flex-col ">
-            <h2>Name</h2>
-            <input
-              type="text"
-              className=" mt-2 px-5 py-3 border border-orange rounded-lg"
-            />
+        <div className="flex flex-col grow gap-8 justify-center items-center text-lg ">
+          <h2 className="text-3xl mb-20">Contact Me</h2>
+          <div className="w-2/3 flex gap-2">
+            <div className="w-8 h-8">
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/email.png`}
+                alt="email"
+              />
+            </div>
+            <div>stella.jin123@gmail.com</div>
           </div>
 
-          <div className="w-2/3 flex flex-col ">
-            <h2>Email Address</h2>
-            <input
-              type="email"
-              className="mt-2 px-5 py-3 border border-orange rounded-lg"
-            />
+          <div className="w-2/3 flex gap-2 ">
+            <div className="w-8 h-8">
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/linkedin.png`}
+                alt="linkedIn"
+                className="text-orange"
+              />
+            </div>
+            <div>https//:www.linkedin.com/in/stella-jin-75694253</div>
           </div>
 
-          <div className="w-2/3 flex flex-col ">
-            <h2>Message</h2>
-            <textarea className="mt-2 px-5 py-3 border border-orange rounded-lg h-60" />
+          <div className="w-2/3 flex gap-2 ">
+            <div className="w-8 h-8">
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/github.png`}
+                alt="linkedIn"
+              />
+            </div>
+            <div>https://github.com/stella-jin-ys</div>
           </div>
-          <button className=" px-10 py-5 bg-orange text-baige">
-            Send Message
-          </button>
         </div>
       </div>
     </div>
