@@ -23,7 +23,7 @@ function Nav() {
               to="/"
               className="text-darkBlue hover:border-b border-darkBlue p-1"
             >
-              Home
+              HOME
             </Link>
           </li>
           <li>
@@ -31,7 +31,7 @@ function Nav() {
               to="/about"
               className="text-darkBlue hover:border-b border-darkBlue p-1"
             >
-              About
+              ABOUT
             </Link>
           </li>
           <li>
@@ -39,7 +39,7 @@ function Nav() {
               to="/projects"
               className="text-darkBlue hover:border-b border-darkBlue p-1"
             >
-              Projects
+              PROJECTS
             </Link>
           </li>
           <li>
@@ -47,7 +47,7 @@ function Nav() {
               to="/contact"
               className="text-darkBlue hover:border-b border-darkBlue p-1"
             >
-              Contact
+              CONTACT
             </Link>
           </li>
         </ul>
