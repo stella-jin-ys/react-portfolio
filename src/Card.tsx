@@ -17,7 +17,7 @@ export default function Card({ name, image, link }: Props) {
           alt=""
           className="w-full h-full object-cover rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-150"
         />
-        <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center text-baige text-2xl font-bold ">
+        <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center text-red text-5xl font-bold ">
           <p className="hover:border-double hover:border-4 px-10 py-3 ">
             {name}
           </p>

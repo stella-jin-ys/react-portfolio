@@ -1,16 +1,24 @@
 import React from "react";
 import Nav from "../Nav";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
     <div>
-      <Nav />
+      <div className="flex w-full justify-between font-bold text-red text-4xl px-10 pt-5 border-red border-b">
+        <div>
+          <Link to="/">HOME</Link>
+        </div>
+        <div>
+          <Link to="/projects">PROJECTS</Link>
+        </div>
+      </div>
       <div className="bg-baige h-screen lg:overflow-hidden flex flex-wrap  gap-10">
         <div className="lg:w-1/2 lg:h-full">
           <img
             src="https://images.unsplash.com/photo-1577398628395-4ebd1f36731b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="contact image"
-            className="h-full w-full object-cover border-r border-orange hidden lg:flex"
+            className="h-full w-full object-cover border-r border-red hidden lg:flex"
           />
         </div>
         <div className="flex flex-col grow gap-8 justify-center items-center text-lg ">

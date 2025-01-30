@@ -4,15 +4,17 @@ module.exports = {
   theme: {
     colors: {
       mint: "#94d2bd",
-      baige: "#fefae0",
+      beige: "#fefae0",
       yellow: "#fcbf49",
-      red: "#d62828",
+      red: "#fa4f4f",
       orange: "#f77f00",
       darkOrange: "#e36414",
       darkGreen: "#0a9396",
       darkBlue: "#003049",
       milktea: "#d5bdaf",
+      grey: "#f4f5f6",
     },
+
     extend: {},
   },
   plugins: [],
