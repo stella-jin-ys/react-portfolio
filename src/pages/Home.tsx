@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="h-screen w-full bg-beige relative">
+    <div className="h-screen w-full overflow-hidden bg-beige relative">
       <img
         src={`${process.env.PUBLIC_URL}/assets/hero.gif`}
         alt="homepage image"
