@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <div>
+    <div className="bg-beige">
       <div className="flex w-full justify-between font-bold text-red text-4xl px-10 pt-5 border-red border-b">
         <div>
           <Link to="/">HOME</Link>
